@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "clean": "rimraf dist",
-    "start": "npm run serve-watch",
+    "start": "npm run serve",
     "prep": "copyfiles analytics.js dist && concat node_modules/material-design-lite/material.min.js node_modules/seedrandom/seedrandom.min.js > dist/lib.js",
     "build-css": "concat node_modules/material-design-lite/material.min.css styles.css > dist/bundle.css",
     "watch-css": "concat node_modules/material-design-lite/material.min.css styles.css -o dist/bundle.css",
